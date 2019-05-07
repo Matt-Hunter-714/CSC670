@@ -1,0 +1,381 @@
+/* Style sheet created by: Student Babita Patil, 04/20/2019 */
+
+/* Style for body specifies a background color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #383838;
+    font-size: small;
+    line-height: 1.2;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+/* Style for the top header */
+#top {
+    background: #003580;
+    border: 0;
+    height: 64px;
+    width: 100%;
+    padding: 0;
+}
+
+
+/* Style for wrapper of the header */
+.header-wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+/* Style for main logo */
+#logo {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: 145px;
+}
+
+/* Style for text under the logo */
+.bottom-logo{
+    position: relative;
+    top: 30px;
+    left: 7px;
+    color: #f1f1f1;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+/* Style for top right div box of the header */
+#right-top {
+    float: right;
+    position: relative;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 10px;
+
+}
+
+/* Style for the $ sign */
+.currency_style {
+    position: relative;
+    text-decoration: none;
+    padding: 17px;
+    color: #f1f1f1;
+    line-height: 16px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.flag_style{
+    width: 18px;
+}
+
+.list-your-prop{
+    text-decoration: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 7px 10px;
+    display: inline;
+    border-radius: 3px;
+}
+
+.reg-sign-in{
+    color: #383838;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 7px 10px;
+    display: inline;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#cross-product-bar {
+    background: #003580;
+    border: 0;
+    height: 40px;
+    width: 100%;
+    padding: 0;
+}
+
+.cross-prod-bar-item{
+    align-items: center;
+    margin: 0 16px;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cross-bar-wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+
+.cross-prod-bar-item:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+.rlt-left {
+    width: 25%;
+    padding: 0;
+    margin: 1em;
+}
+
+.rlt-right{
+    width: 70%;
+    padding: 0;
+    float: right;
+    margin: 1em;
+}
+
+#basiclayout {
+    padding: 0 5px;
+    width: auto;
+}
+
+.hp-lists {
+    background: #e9f0fa;
+    padding: 20px 0 10px 0;
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+#main-body-bar {
+    border: 0;
+    padding: 0;
+}
+
+.main-body-wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+
+.b-button {
+    background-color: #07c;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 3px #aaa;
+    width: 90%;
+    margin: 10px 0 12px 0;
+    padding: 7px 6px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.hp__hotel-type-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -5px;
+    padding: 0 4px;
+    border-radius: 3px;
+    background: #aeaeae;
+    color: #fff;
+}
+
+facility-badge__title {
+    display: inline-block;
+    padding-right: 6px;
+    margin-left: 12px;
+    font-size: 12px;
+    line-height: 24px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #383838;
+    background-color: #e9f0fa;
+    position: relative;
+    padding-left: 20px;
+    height: 24px;
+    margin-top: 0;
+}
+
+.hp__hotel-type-badge1 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -14px;
+    padding: 0 4px;
+    border-radius: 3px;
+    background: #e9f0fa;
+    color: #383838;
+}
+
+.hp__hotel-type-badge2 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -14px;
+
+}
+
+.popular-facilities-text{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -14px;
+    color: #0ab21b;
+}
+.custom-head-text{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -14px;
+    color: black;
+}
+
+.house-rules-text{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -14px;
+    color: black;   
+}
+
+.house-rules-text-light{
+    display: inline-block;
+    font-size: 12px;
+    font-weight:normal;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -14px;
+    color: black; 
+    
+}
+
+.blue-box{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#searchbox {
+    background-color: rgb(244, 191, 66);
+    width: 250px;
+    padding-bottom: 120px;
+    padding-left: 10px;
+    height: 400px;
+    text-align: left;
+    margin-top: auto;
+}
+#textbox {
+    background-color: white;
+    width: 210px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#smalltextbox1 {
+    background-color: white;
+    width: 80px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+#smalltextbox2 {
+    background-color: white;
+    width: 60px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 30px;
+}
+#searchtitle{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#bluesearch{
+    color:white;
+    background-color: dodgerblue;
+    width: 80px;
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: center
+}
+#filterbox{
+    width: 250px;
+    border-style: ridge;
+}
+#smallfilterbox{
+    width: 10px;
+    height: 10px;
+    border-style: ridge;
+    float: left;
+    margin-bottom: 2px;
+}
+#resultsTable{
+    border-width: 2px;
+    border-style: solid;
+}
+#firstItem{
+    background-color: limegreen;
+    color: white;
+}
